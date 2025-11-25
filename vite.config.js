@@ -2,6 +2,7 @@ import { defineConfig } from 'vite';
 import path from 'path';
 
 export default defineConfig({
+  base: '/newbrain-app-web/',
   root: 'src',
   build: {
     outDir: '../dist',
